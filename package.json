@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "webpack --config webpack.config.js",
     "docs": "start-storybook -p 9001 .storybook",
     "docs:build": "build-storybook -c .storybook -o docs"
     
