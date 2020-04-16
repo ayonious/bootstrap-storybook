@@ -1,2 +1,1 @@
-# bootstrap-storybook
-Learning storybook and babbel
+# My components collection
