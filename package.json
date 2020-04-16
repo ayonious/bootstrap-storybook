@@ -4,12 +4,13 @@
   "description": "learning storybook and babbel",
   "main": "index.js",
   "scripts": {
-    "test": "test"
-  },
-  "repository": {
+    "test": "test",
     "build": "webpack --config webpack.config.js",
     "docs": "start-storybook -p 9001 .storybook",
-    "docs:build": "build-storybook -c .storybook -o docs",
+    "docs:build": "build-storybook -c .storybook -o docs"
+    
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ayonious/bootstrap-storybook.git"
   },
