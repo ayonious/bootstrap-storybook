@@ -7,7 +7,6 @@
     "test": "test",
     "docs": "start-storybook -p 9001 .storybook",
     "docs:build": "build-storybook -c .storybook -o docs"
-    
   },
   "repository": {
     "type": "git",
@@ -27,11 +26,7 @@
     "@storybook/components": "5.3.18",
     "@storybook/react": "5.3.18",
     "babel-loader": "8.1.0",
-    "clean-webpack-plugin": "3.0.0",
     "react": "16.13.1",
-    "storybook-addon-jsx": "7.2.3",
-    "uglifyjs-webpack-plugin": "2.2.0",
-    "webpack": "4.42.1",
-    "webpack-cli": "3.3.11"
+    "storybook-addon-jsx": "7.2.3"
   }
 }
