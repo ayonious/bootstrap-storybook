@@ -7,7 +7,6 @@
     "test": "test",
     "docs": "start-storybook -p 9001 .storybook",
     "docs:build": "build-storybook -c .storybook -o docs"
-    
   },
   "repository": {
     "type": "git",
@@ -33,5 +32,8 @@
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.0"
   }
 }
