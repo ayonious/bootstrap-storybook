@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { ButtonWrapper } from "./styles";
 
-const MyButton = () => {
+interface Props {
+  toLink: string;
+}
+
+const MyButton = (props: Props) => {
   return (
     <ButtonWrapper>
-      <a href={this.props.toLink}> my button</a>
+      <a href={props.toLink}> my button</a>
     </ButtonWrapper>
   );
 };
