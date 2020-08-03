@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import { CardArticleWrapper, CardImageWrapper, InfoDivWrapper } from "./styles";
 
-interface Props {
-  img: any;
-  title: string;
-  excerpt: string;
-}
-
-const Card = (props: Props) => {
+const Card = (props) => {
   return (
     <CardArticleWrapper>
       <CardImageWrapper>
