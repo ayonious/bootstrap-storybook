@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import { ButtonWrapper } from "./styles";
 
-export default class MyButton extends Component {
-  constructor(props) {
-    super(props);
-  }
+const MyButton = () => {
+  return (
+    <ButtonWrapper>
+      <a href={this.props.toLink}> my button</a>
+    </ButtonWrapper>
+  );
+};
 
-  render() {
-    return (
-      <ButtonWrapper>
-        <a href={this.props.toLink}> my button</a>
-      </ButtonWrapper>
-    );
-  }
-}
+export default MyButton;
