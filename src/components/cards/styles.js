@@ -1,32 +1,41 @@
 import styled from "styled-components";
 
 export const CardArticleWrapper = styled.article`
-  margin-bottom: 2rem;
-  background: brown;
+  background: grey;
+  border: solid black;
+  border-radius: 12px;
   padding: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
   @media only screen and (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 350px 1fr;
+    flex-direction: row;
+    height: 350px;
   }
 `;
 
 export const CardImageWrapper = styled.div`
-  div {
-    @media only screen and (min-width: 768px) {
-      height: 300px;
+  align-self: center;
+  @media only screen and (min-width: 768px) {
+    img {
+      height: 350px;
+      width: 350px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    img {
+      max-width: 100%;
     }
   }
 `;
 
 export const InfoDivWrapper = styled.div`
-  height: 300px;
+  height: 350px;
   padding: 1rem 0;
-  @media only screen and (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    padding: 0 1.5rem;
-  }
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
   div {
     h2 {
       font-size: 30px;
@@ -34,7 +43,7 @@ export const InfoDivWrapper = styled.div`
       margin-bottom: 10px;
     }
     h6 {
-      color: grey;
+      color: black;
       text-transform: capitalize;
     }
     p {
