@@ -1,3 +1,5 @@
 # My components collection
 
-# 🎁View all components: ![github pages](https://ayonious.github.io/bootstrap-storybook)
+# 🎁Preview
+
+![github pages](https://ayonious.github.io/bootstrap-storybook)
