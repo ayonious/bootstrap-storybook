@@ -1,8 +1,13 @@
 import React from "react";
 import DropDown from ".";
 
-import { storiesOf } from "@storybook/react";
+export default {
+  title: 'Components/DropDown',
+  component: DropDown,
+};
 
-storiesOf("Custom DropDown", module).add("simple", () => (
-  <DropDown data={["ami", "tumi", "she", "ich", "du", "wir"]} />
-));
+export const Simple = {
+  args: {
+    data: ["ami", "tumi", "she", "ich", "du", "wir"]
+  }
+};
