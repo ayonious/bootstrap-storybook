@@ -20,7 +20,7 @@ yarn docs:build
 
 # My components collection
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ayonious/bootstrap-storybook/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ayonious/bootstrap-storybook/tree/master)
+[![CI](https://github.com/ayonious/bootstrap-storybook/workflows/CI/badge.svg)](https://github.com/ayonious/bootstrap-storybook/actions)
 
 ## 🎁 See Deployed
 
