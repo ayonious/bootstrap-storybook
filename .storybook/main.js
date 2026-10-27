@@ -1,11 +1,10 @@
-module.exports = {
-  stories: ['../src/components/**/*.stories.@(js|jsx|ts|tsx)'],
-  addons: ['@storybook/addon-essentials', 'storybook-addon-jsx'],
-  framework: {
-    name: '@storybook/react-webpack5',
-    options: {}
-  },
-  docs: {
-    autodocs: true
-  }
+/** @type {import('@storybook/react-vite').StorybookConfig} */
+export default {
+  stories: ['../src/components/**/*.stories.@(js|jsx)'],
+  addons: [
+    '@storybook/addon-docs',
+    '@storybook/addon-a11y',
+    '@storybook/addon-vitest',
+  ],
+  framework: '@storybook/react-vite',
 };

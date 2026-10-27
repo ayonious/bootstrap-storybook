@@ -1,14 +1,14 @@
-/** @type { import('@storybook/react').Preview } */
-const preview = {
+/** @type {import('@storybook/react-vite').Preview} */
+export default {
+  tags: ['autodocs'],
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
     },
+    docs: { codePanel: true },
+    a11y: { test: 'todo' },
   },
 };
-
-export default preview; 

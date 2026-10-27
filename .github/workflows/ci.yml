@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version-file: .nvmrc
         cache: 'yarn'
     
     - name: Install dependencies
@@ -25,5 +25,11 @@ jobs:
     - name: Run tests
       run: yarn test
     
+    - name: Install test browser
+      run: yarn playwright install --with-deps chromium
+
+    - name: Test stories in Chromium
+      run: yarn test:stories
+
     - name: Build project
       run: yarn build
